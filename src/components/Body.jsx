@@ -1,14 +1,23 @@
-import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
+import About from "./About";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Experience from "./Experience"
+import Contact from "./Contact"
 import Footer from "./Footer";
-
 const Body = () => {
   return (
     <>
-      <div className="min-h-screen bg-white dark:bg-neutral-900 text-black dark:text-white">
+      <div className="min-h-screen bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text">
         <Navbar />
-        <main className="pt-20 font-body">
-          <Outlet />
+        <main className="">
+          <Hero/>
+          <About/>
+          <Skills/>
+          <Projects/>
+          <Experience/>
+          <Contact/>
         </main>
         <Footer />
       </div>
