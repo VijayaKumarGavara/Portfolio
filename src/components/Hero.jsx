@@ -6,12 +6,12 @@ import LeetcodeIcon from "../assets/LeetcodeIcon";
 const Hero = () => {
   return (
     <>
-      <section className="relative w-full h-svh flex flex-col justify-center items-center gap-6">
-        <div className="flex flex-col sm:flex-row sm:gap-x-1 text-light-text dark:text-dark-text font-heading font-bold text-4xl leading-loose tracking-wide">
+      <section className="relative w-full min-h-screen flex flex-col justify-center items-center gap-6 bg-light-bg dark:bg-dark-bg">
+        <div className="flex flex-col sm:flex-row sm:gap-x-2 text-light-text dark:text-dark-text font-heading font-bold text-4xl leading-loose tracking-wide">
           <p className="text-4xl sm:text-5xl font-heading text-light-text2 dark:text-dark-text2">
             Hi, I'm
           </p>
-          <h1 className="text-4xl sm:text-5xl font-heading">
+          <h1 className="text-4xl sm:text-5xl font-heading cursor-pointer">
             Vijaya Kumar Gavara
           </h1>
         </div>
@@ -25,10 +25,10 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Open resume in new tab"
-            className="bg-brand-500 hover:bg-brand-600 focus:ring-2 focus:ring-brand-200 text-dark-text dark:text-light-text font-semibold px-4 py-2 rounded transition transform hover:scale-105">
+            className="bg-brand-500 hover:bg-brand-600 focus:ring-2 focus:ring-brand-200 text-white dark:text-dark-text font-semibold px-4 py-2 rounded transition transform hover:scale-105">
             Resume
           </a>
-          <a className="bg-transparent border border-light-border dark:border-dark-border text-light-text font-semibold 
+          <a href="#contact" className="bg-transparent border border-light-border dark:border-dark-border text-light-text font-semibold cursor-pointer 
           focus:ring-2 focus:ring-brand-200
           dark:text-dark-text px-3 py-2 rounded transition transform hover:scale-105">
             Contact Me

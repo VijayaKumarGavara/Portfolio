@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <>
+      <section
+        id="contact"
+        aria-labelledby="contact-heading"
+        className="w-full py-16 sm:py-24 px-1 sm:px-24">
+        Contact
+      </section>
+    </>
+  );
+};
 
-export default Contact
+export default Contact;

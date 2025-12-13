@@ -9,9 +9,9 @@ import Footer from "./Footer";
 const Body = () => {
   return (
     <>
-      <div className="min-h-screen bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text">
+      <div className="min-h-screen bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text overflow-hidden">
         <Navbar />
-        <main className="">
+        <main className="scroll-smooth">
           <Hero/>
           <About/>
           <Skills/>

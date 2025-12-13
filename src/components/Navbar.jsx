@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 const Navbar = () => {
@@ -46,45 +45,48 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="px-10 py-3 sm:py-0 sm:my-5 w-full  flex flex-row justify-between items-center fixed shadow-lg sm:shadow-none z-50">
+      <header className="px-10 py-3 sm:py-0 sm:my-5 w-full  flex flex-row justify-between items-center fixed bg-light-bg dark:bg-dark-bg sm:bg-transparent sm:dark:bg-transparent text-light-text dark:text-dark-text shadow-lg sm:shadow-none z-50">
         <div>{/* logo */}</div>
         <div
           ref={menuRef}
           className={`flex flex-col gap-y-1 absolute top-0 left-0 w-full items-center text-base font-heading
-          bg-light-card dark:bg-dark-card text-light-text dark:text-dark-text font-semibold
+         font-semibold bg-light-card dark:bg-dark-card
           shadow-xl leading-10
           overflow-hidden transition-all duration-300 ease-in-out
-          ${showNavbar ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}
-          sm:border-2 sm:border-slate-300 sm:bg-transparent sm:static sm:max-h-none sm:opacity-100 
+          ${showNavbar ? "max-h-96" : "max-h-0 "}
+          sm:border-2 sm:border-slate-300 sm:static sm:max-h-none 
           sm:w-auto sm:rounded-xl sm:px-6 sm:py-1 sm:gap-x-6 sm:flex sm:flex-row sm:shadow-none`}>
-          <Link
-            to="/"
+          <a
+            href="#about"
             onClick={() => setNavbar(false)}
-            className="hover:text-light-text2 hover:dark:text-dark-text2"> About</Link>
-          <Link
-            to="#skills"
+            className="cursor-pointer hover:text-light-text2 hover:dark:text-dark-text2">
+            {" "}
+            About
+          </a>
+          <a
+            href="#skills"
             onClick={() => setNavbar(false)}
-            className="hover:text-light-text2 hover:dark:text-dark-text2">
+            className="cursor-pointer hover:text-light-text2 hover:dark:text-dark-text2">
             Skills
-          </Link>
-          <Link
-            to="#projects"
+          </a>
+          <a
+            href="#projects"
             onClick={() => setNavbar(false)}
-            className="hover:text-light-text2 hover:dark:text-dark-text2">
+            className="cursor-pointer hover:text-light-text2 hover:dark:text-dark-text2">
             Projects
-          </Link>
-          <Link
-            to="#experience"
+          </a>
+          <a
+            href="#experience"
             onClick={() => setNavbar(false)}
-            className="hover:text-light-text2 hover:dark:text-dark-text2">
+            className="cursor-pointer hover:text-light-text2 hover:dark:text-dark-text2">
             Experience
-          </Link>
-          <Link
-            to="#contact"
+          </a>
+          <a
+            href="#contact"
             onClick={() => setNavbar(false)}
-            className="hover:text-light-text2 hover:dark:text-dark-text2">
+            className="cursor-pointer hover:text-light-text2 hover:dark:text-dark-text2">
             Contact
-          </Link>
+          </a>
           <div
             className="cursor-pointer sm:hidden"
             onClick={() => {
@@ -106,7 +108,7 @@ const Navbar = () => {
           ref={buttonRef}
           aria-label="Toggle navigation"
           onClick={handleClick}
-          className="cursor-pointer inline-block text-center text-black dark:text-white border-black border dark:border-white text-lg rounded-md max-h-min  px-3 py-1 sm:hidden z-50">
+          className="cursor-pointer inline-block text-center text-black dark:text-white border-black border dark:border-white text-lg rounded-md max-h-min  px-3 py-1 sm:hidden">
           ☰
         </div>
       </header>
