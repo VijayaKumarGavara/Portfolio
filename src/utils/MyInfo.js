@@ -22,12 +22,12 @@ const MyInfo = [
     content:
       "Right now, I’m improving my understanding of JavaScript fundamentals, React internals, and writing better-organized full-stack code.",
   },
-  // {
-  //   Icon: AutoAwesomeMosaicIcon,
-  //   heading: "How I Learn",
-  //   content:
-  //     "I prefer learning step by step. I take time to break problems down, understand them clearly, and improve gradually instead of rushing through topics.",
-  // },
+  {
+    Icon: AutoAwesomeMosaicIcon,
+    heading: "How I Learn",
+    content:
+      "I prefer learning step by step. I take time to break problems down, understand them clearly, and improve gradually instead of rushing through topics.",
+  },
 ];
 
 

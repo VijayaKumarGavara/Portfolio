@@ -20,12 +20,12 @@ export default function About() {
       <section
         id="about"
         aria-labelledby="about-heading"
-        className="w-full py-16 sm:py-24 px-1 sm:px-24">
+        className="w-full py-16 px-3 sm:px-6 md:px-12 lg:px-24">
         <h2 className="p-4 font-heading text-3xl sm:text-4xl font-bold text-light-text dark:text-dark-text">
           About Me
         </h2>
         <div className="flex flex-col-reverse sm:flex-row gap-4">
-          <div className="flex flex-col gap-3 sm:max-w-xl w-full">
+          <div className="flex flex-col gap-3 sm:flex-[1.2] min-w-0  w-full">
             {MyInfo.map(({ Icon, heading, content }, index) => (
               <AboutCard
                 key={index}
@@ -35,7 +35,7 @@ export default function About() {
               />
             ))}
           </div>
-          <div className="flex flex-col gap-3 sm:max-w-xl w-full">
+          <div className="flex flex-col gap-3 sm:flex-1 min-w-0 w-full">
             <div className="p-4 rounded-xl border border-light-border dark:border-dark-border bg-light-card dark:bg-dark-card shadow-sm hover:shadow-md transition w-full h-min">
               <h3 className="font-heading font-semibold tracking-wider text-xl sm:text-2xl p-2 m-2 flex items-center gap-2">
                 <SchoolIcon />
