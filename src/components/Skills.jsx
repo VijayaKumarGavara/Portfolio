@@ -7,8 +7,8 @@ const Skills = () => {
       <section
         id="skills"
         aria-labelledby="skills-heading"
-        className="w-full py-16 sm:py-24 px-1 sm:px-24">
-        <h2 className="p-4 font-heading text-3xl sm:text-4xl font-bold text-light-text dark:text-dark-text">
+        className="w-full py-16 sm:py-24 px-4 sm:px-24">
+        <h2 className="p-4 sm:pb-6 md:pb-8 sm:text-center font-heading text-3xl sm:text-4xl font-bold text-light-text dark:text-dark-text">
           Skills
         </h2>
         <div className="w-full flex flex-col items-center gap-4">

@@ -20,8 +20,8 @@ export default function About() {
       <section
         id="about"
         aria-labelledby="about-heading"
-        className="w-full py-16 px-3 sm:px-6 md:px-12 lg:px-24">
-        <h2 className="p-4 font-heading text-3xl sm:text-4xl font-bold text-light-text dark:text-dark-text">
+        className="w-full py-16 px-4 sm:px-6 md:px-12 lg:px-24">
+        <h2 className="p-4 sm:pb-6 md:pb-8 sm:text-center font-heading text-3xl sm:text-4xl font-bold text-light-text dark:text-dark-text">
           About Me
         </h2>
         <div className="flex flex-col-reverse sm:flex-row gap-4">
@@ -68,7 +68,8 @@ export default function About() {
                 <span>
                   <a
                     href={QuickInfo[index]?.link}
-                    className="underline text-accent ">
+                    rel="noopener noreferrer"
+                    className="text-accent ">
                     {QuickInfo[index]?.cta
                   }
                   </a>
