@@ -217,6 +217,57 @@ const ProjectInfo = [
       github: "https://github.com/VijayaKumarGavara/Guardian-Save",
     },
   },
+  {
+    slug: "portfolio",
+    title: "Personal Portfolio Website",
+
+    shortDescription:
+      "A responsive personal portfolio website showcasing my projects, skills, experience, and contact information in a clean and professional layout.",
+
+    overview:
+      "This portfolio website is designed to present my work, technical skills, and experience in a structured and readable manner. It serves as a central place for recruiters and collaborators to explore my projects, understand my background, and get in touch easily.",
+
+    problem:
+      "Sharing projects, experience, and skills across multiple platforms makes it hard to present a clear and complete profile in one place.",
+
+    solution:
+      "Built a single, well-structured portfolio website that organizes information into clear sections like About, Skills, Projects, Experience, and Contact, ensuring easy navigation and professional presentation.",
+
+    features: [
+      "Responsive layout for mobile, tablet, and desktop",
+      "Project listing with individual project detail pages",
+      "Clear skills categorization and experience timeline",
+      "Contact section with direct email and social links",
+      "Dark and light theme support",
+    ],
+
+    techStack: {
+      frontend: ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
+      backend: [],
+      database: [],
+      tools: ["Git", "GitHub", "Vercel / Netlify"],
+    },
+
+    challenges: [
+      {
+        challenge:
+          "Maintaining a clean layout across different screen sizes without clutter",
+        solution:
+          "Used responsive design principles and flexible layouts to ensure consistent spacing and readability on all devices",
+      },
+      {
+        challenge:
+          "Structuring content to feel professional without appearing overcrowded",
+        solution:
+          "Focused on minimal UI components, clear typography, and section-based information hierarchy",
+      },
+    ],
+
+    links: {
+      github: "https://github.com/your-username/portfolio",
+      live: "https://your-portfolio-link.com",
+    },
+  },
 ];
 
 export default ProjectInfo;

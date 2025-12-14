@@ -52,7 +52,7 @@ const Hero = () => {
             <LeetcodeIcon/>
           </a>
           <a
-            href=""
+            href="https://github.com/VijayaKumarGavara"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub (opens in new tab)"
