@@ -33,13 +33,13 @@ const Footer = () => {
   return (
     <>
       <div className="w-full bg-light-card dark:bg-dark-card">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center  pt-8 px-4 sm:px-6 md:px-12 lg:px-24 ">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  pt-8 px-4 sm:px-6 md:px-12 lg:px-24 ">
           <div>
             <h2 className="m-2 font-heading text-base font-medium text-light-text dark:text-dark-text flex flex-col md:flex-row gap-4">
               <span>Vijaya Kumar Gavara</span> <span>Web Developer</span>
             </h2>
           </div>
-          <div className="m-2 flex flex-row gap-x-4">
+          <div className="m-2 flex flex-wrap gap-x-2">
             <a
               href="#about"
               className="cursor-pointer hover:text-light-text2 hover:dark:text-dark-text2">
@@ -91,14 +91,12 @@ const Footer = () => {
               <EmailIcon />
             </a>
           </div>
-        </div>
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center  pt-8 px-4 sm:px-6 md:px-12 lg:px-24 ">
-          <span className="my-2">
+          <span className="my-2 font-body text-light-text2 dark:text-dark-text2">
             © {new Date().getFullYear()} All rights reserved.
           </span>
-          <span className="my-2">Built with React and Tailwind CSS.</span>
+          <span className="my-2 text-light-text2 dark:text-dark-text2">Built with React and Tailwind CSS.</span>
           {lastUpdatedOn && (
-            <span className="my-2">Last updated: {lastUpdatedOn}</span>
+            <span className="my-2 text-light-text2 dark:text-dark-text2">Last updated: {lastUpdatedOn}</span>
           )}
         </div>
       </div>

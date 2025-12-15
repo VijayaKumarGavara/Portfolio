@@ -23,9 +23,9 @@ const ExperienceCard = ({ experience }) => {
           {" - "}
           {organization}
         </h3>
-        <h4 className="font-body text-base  text-light-text dark:text-dark-text p-2 flex items-center gap-3">
+        <h4 className="font-body text-base  text-light-text dark:text-dark-text p-2 flex flex-row items-center gap-3">
           {duration}{" "}
-          <span>
+          <span className="flex flex-row items-start">
             <LocationOnIcon fontSize="small" />
             {location}
           </span>
