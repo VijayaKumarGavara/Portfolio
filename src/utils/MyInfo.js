@@ -20,7 +20,7 @@ const MyInfo = [
     Icon: WorkOutlineIcon,
     heading: "What I'm Exploring",
     content:
-      "Right now, I’m improving my understanding of JavaScript fundamentals, React internals, and writing better-organized full-stack code.",
+      "Right now, I’m improving my understanding of React internals, and writing better-organized full-stack code.",
   },
   {
     Icon: AutoAwesomeMosaicIcon,

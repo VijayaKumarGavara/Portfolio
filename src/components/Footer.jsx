@@ -1,35 +1,10 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense } from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+const GithubCommit = lazy(() => import("./GithubCommit"));
 
 const Footer = () => {
-  const [lastUpdatedOn, setLastUpdate] = useState(null);
-  useEffect(() => {
-    async function getLastUpdateDate() {
-      try {
-        const response = await fetch(
-          `https://api.github.com/repos/${
-            import.meta.env.VITE_GITHUB_ACCOUNT
-          }/${import.meta.env.VITE_GITHUB_REPO}/commits`
-        );
-        const data = await response.json();
-        if (
-          !Array.isArray(data) ||
-          data.length === 0 ||
-          !data[0]?.commit?.author?.date
-        )
-          return;
-        const fullDate = data[0]?.commit?.author?.date;
-        const date = fullDate.split("T")[0];
-        setLastUpdate(date);
-      } catch (error) {
-        console.log("Error while fetching the date: ", error);
-      }
-    }
-
-    getLastUpdateDate();
-  }, []);
   return (
     <>
       <div className="w-full mt-8 sm:mt-14 bg-light-card dark:bg-dark-card">
@@ -94,10 +69,17 @@ const Footer = () => {
           <span className="my-2 font-body text-light-text2 dark:text-dark-text2">
             © {new Date().getFullYear()} All rights reserved.
           </span>
-          <span className="my-2 text-light-text2 dark:text-dark-text2">Built with React and Tailwind CSS.</span>
-          {lastUpdatedOn && (
-            <span className="my-2 text-light-text2 dark:text-dark-text2">Last updated: {lastUpdatedOn}</span>
-          )}
+          <span className="my-2 text-light-text2 dark:text-dark-text2">
+            Built with React and Tailwind CSS.
+          </span>
+          <Suspense
+            fallback={
+              <span className="my-2 text-light-text2 dark:text-dark-text2">
+                Last updated: —
+              </span>
+            }>
+            <GithubCommit />
+          </Suspense>
         </div>
       </div>
     </>
