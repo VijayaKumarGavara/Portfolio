@@ -32,7 +32,7 @@ const Footer = () => {
   }, []);
   return (
     <>
-      <div className="w-full bg-light-card dark:bg-dark-card">
+      <div className="w-full mt-8 sm:mt-14 bg-light-card dark:bg-dark-card">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  pt-8 px-4 sm:px-6 md:px-12 lg:px-24 ">
           <div>
             <h2 className="m-2 font-heading text-base font-medium text-light-text dark:text-dark-text flex flex-col md:flex-row gap-4">

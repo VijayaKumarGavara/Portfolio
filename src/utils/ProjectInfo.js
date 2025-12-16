@@ -27,7 +27,7 @@ const ProjectInfo = [
     techStack: {
       frontend: ["React", "JavaScript", "Tailwind CSS"],
       backend: ["Firebase Authentication"],
-      apis: ["TMDB API", "OpenAI / Gemini (optional)"],
+      apis: ["TMDB API", "Gemini API"],
       tools: ["Vite", "Git", "Netlify / Firebase Hosting"],
     },
 
@@ -47,8 +47,8 @@ const ProjectInfo = [
     ],
 
     links: {
-      github: "https://github.com/your-username/netflix-gpt",
-      live: "https://your-live-url.com",
+      github: "https://github.com/VijayaKumarGavara/Netflix-GPT",
+      live: "https://kaleidoscopic-pasca-2735bc.netlify.app/",
     },
   },
   {
@@ -107,8 +107,8 @@ const ProjectInfo = [
     ],
 
     links: {
-      github: "https://github.com/your-username/task-flow",
-      live: "https://task-flow-yourdomain.com",
+      github: "https://github.com/VijayaKumarGavara/Task-Flow",
+      live: "",
     },
   },
   {
@@ -140,7 +140,7 @@ const ProjectInfo = [
 
     techStack: {
       frontend: ["HTML", "CSS", "JavaScript"],
-      backend: ["Node.js", "Express.js"],
+      backend: ["Node.js", "Express.js", "REST API's"],
       database: ["MySQL"],
       authentication: ["Session-based authentication"],
       storage: ["Cloudinary"],
@@ -164,7 +164,7 @@ const ProjectInfo = [
 
     links: {
       live: "https://vijayakumargavara.github.io/DhanyaSethu/",
-      github: "https://github.com/VijayakumarGavara/DhanyaSethu",
+      github: "https://github.com/VijayaKumarGavara/Dhanya---Sethu-Production",
     },
   },
   {
@@ -215,6 +215,7 @@ const ProjectInfo = [
 
     links: {
       github: "https://github.com/VijayaKumarGavara/Guardian-Save",
+      live:"http://guardiansave.infinityfreeapp.com/"
     },
   },
   {
@@ -243,9 +244,9 @@ const ProjectInfo = [
 
     techStack: {
       frontend: ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
-      backend: [],
+      backend: ["EmailJS"],
       database: [],
-      tools: ["Git", "GitHub", "Vercel / Netlify"],
+      tools: ["Git", "GitHub", "Netlify"],
     },
 
     challenges: [
@@ -264,8 +265,8 @@ const ProjectInfo = [
     ],
 
     links: {
-      github: "https://github.com/your-username/portfolio",
-      live: "https://your-portfolio-link.com",
+      github: "https://github.com/VijayaKumarGavara/Portfolio",
+      live: "https://statuesque-pixie-9650a6.netlify.app/",
     },
   },
 ];

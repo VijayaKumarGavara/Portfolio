@@ -7,9 +7,8 @@ const ExperienceInfo = [
     description: [
       "Built and customized WordPress-based educational platforms, ensuring usability and mobile responsiveness.",
       "Implemented secure authentication and database-driven features for dynamic content management.",
-      "Worked in agile sprints, coordinating with designers and backend developers to deliver new features on time.",
     ],
-    techStack: ["WordPress", "PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    techStack: ["WordPress", "MySQL", "HTML", "CSS", "JavaScript"],
     location: "Remote",
     certificateLink: "",
   },
