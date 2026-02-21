@@ -19,13 +19,15 @@ const ProjectCard = ({ title, shortDescription, links, slug }) => {
           }
         </p>
         <div className="flex flex-row gap-6 p-2">
-          <a
-            href={links?.live}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="text-base text-accent hover:underline">
-            Live
-          </a>
+          {links?.live && (
+            <a
+              href={links?.live}
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-base text-accent hover:underline">
+              Live
+            </a>
+          )}
           <a
             href={links?.github}
             rel="noopener noreferrer"

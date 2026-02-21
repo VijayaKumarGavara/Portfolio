@@ -9,11 +9,15 @@ const SkillsInfo = [
   },
   {
     category: "Backend",
-    skills: ["Node.js "," Express "," REST APIs "," MySQL"],
+    skills: ["Node.js ", " Express ", " REST APIs "],
+  },
+  {
+    category: "Databases",
+    skills: [" MySQL ", " MongoDB "],
   },
   {
     category: "Tools",
-    skills: ["Git "," GitHub "," VS Code "," Postman", "Firebase"],
+    skills: ["Git ", " GitHub ", " VS Code ", " Postman", "Firebase"],
   },
 ];
 export default SkillsInfo;

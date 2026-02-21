@@ -51,66 +51,66 @@ const ProjectInfo = [
       live: "https://kaleidoscopic-pasca-2735bc.netlify.app/",
     },
   },
-  {
-    slug: "task-flow",
-    title: "Task Flow",
+  // {
+  //   slug: "task-flow",
+  //   title: "Task Flow",
 
-    shortDescription:
-      "A priority-based task planning and tracking application that helps users organize work, monitor progress in real time, and visualize productivity insights.",
+  //   shortDescription:
+  //     "A priority-based task planning and tracking application that helps users organize work, monitor progress in real time, and visualize productivity insights.",
 
-    overview:
-      "Task Flow is a personal productivity web application designed to help users plan tasks, track completion over time, and analyze efficiency through priority-wise insights. The system focuses on time-bound tasks, real-time status evaluation, and intuitive visual feedback to improve daily task execution.",
+  //   overview:
+  //     "Task Flow is a personal productivity web application designed to help users plan tasks, track completion over time, and analyze efficiency through priority-wise insights. The system focuses on time-bound tasks, real-time status evaluation, and intuitive visual feedback to improve daily task execution.",
 
-    problem:
-      "Most task management tools focus heavily on listing tasks but provide limited insight into how effectively tasks are completed over time. Users often struggle to understand missed tasks, overlapping schedules, and priority-wise performance, making it hard to evaluate productivity objectively.",
+  //   problem:
+  //     "Most task management tools focus heavily on listing tasks but provide limited insight into how effectively tasks are completed over time. Users often struggle to understand missed tasks, overlapping schedules, and priority-wise performance, making it hard to evaluate productivity objectively.",
 
-    solution:
-      "Task Flow addresses this by combining time-aware task evaluation with priority-based analytics. Tasks are continuously evaluated against the current time, and completion data is aggregated to present clear insights such as total progress and priority-wise efficiency, helping users understand not just what they planned, but how well they executed it.",
+  //   solution:
+  //     "Task Flow addresses this by combining time-aware task evaluation with priority-based analytics. Tasks are continuously evaluated against the current time, and completion data is aggregated to present clear insights such as total progress and priority-wise efficiency, helping users understand not just what they planned, but how well they executed it.",
 
-    features: [
-      "Create time-bound tasks with priority levels (High, Medium, Low)",
-      "Real-time task evaluation based on current time",
-      "Priority-wise completion insights and efficiency metrics",
-      "Interactive insights dashboard with hover-based breakdowns",
-      "Automatic detection of completed vs missed tasks",
-      "Support for recurring (repeatable) tasks",
-      "Overlap handling to prevent conflicting task schedules",
-      "Clean and responsive UI focused on clarity and usability",
-    ],
+  //   features: [
+  //     "Create time-bound tasks with priority levels (High, Medium, Low)",
+  //     "Real-time task evaluation based on current time",
+  //     "Priority-wise completion insights and efficiency metrics",
+  //     "Interactive insights dashboard with hover-based breakdowns",
+  //     "Automatic detection of completed vs missed tasks",
+  //     "Support for recurring (repeatable) tasks",
+  //     "Overlap handling to prevent conflicting task schedules",
+  //     "Clean and responsive UI focused on clarity and usability",
+  //   ],
 
-    techStack: {
-      frontend: ["React", "JavaScript", "Tailwind CSS"],
-      backend: ["Node.js", "Express.js"],
-      database: ["MongoDB"],
-      tools: ["REST APIs", "Git", "Postman"],
-    },
+  //   techStack: {
+  //     frontend: ["React", "JavaScript", "Tailwind CSS"],
+  //     backend: ["Node.js", "Express.js"],
+  //     database: ["MongoDB"],
+  //     tools: ["REST APIs", "Git", "Postman"],
+  //   },
 
-    challenges: [
-      {
-        challenge:
-          "Efficiently updating task insights without constantly reloading the page or overloading the API.",
-        solution:
-          "Implemented controlled polling with timed intervals and state-based rendering to update insights while minimizing unnecessary API calls.",
-      },
-      {
-        challenge:
-          "Accurately determining task completion and missed tasks based on time and user actions.",
-        solution:
-          "Designed a time-parsing utility to convert task deadlines into comparable timestamps, enabling reliable real-time task evaluation.",
-      },
-      {
-        challenge:
-          "Displaying multiple task metrics without overwhelming the user.",
-        solution:
-          "Used interactive UI patterns like hover-based data switching and visual indicators to present detailed insights while keeping the interface minimal.",
-      },
-    ],
+  //   challenges: [
+  //     {
+  //       challenge:
+  //         "Efficiently updating task insights without constantly reloading the page or overloading the API.",
+  //       solution:
+  //         "Implemented controlled polling with timed intervals and state-based rendering to update insights while minimizing unnecessary API calls.",
+  //     },
+  //     {
+  //       challenge:
+  //         "Accurately determining task completion and missed tasks based on time and user actions.",
+  //       solution:
+  //         "Designed a time-parsing utility to convert task deadlines into comparable timestamps, enabling reliable real-time task evaluation.",
+  //     },
+  //     {
+  //       challenge:
+  //         "Displaying multiple task metrics without overwhelming the user.",
+  //       solution:
+  //         "Used interactive UI patterns like hover-based data switching and visual indicators to present detailed insights while keeping the interface minimal.",
+  //     },
+  //   ],
 
-    links: {
-      github: "https://github.com/VijayaKumarGavara/Task-Flow",
-      live: "",
-    },
-  },
+  //   links: {
+  //     github: "https://github.com/VijayaKumarGavara/Task-Flow",
+  //     live: "",
+  //   },
+  // },
   {
     slug: "dhanya-sethu",
     title: "Dhanya Sethu",
@@ -141,10 +141,10 @@ const ProjectInfo = [
     techStack: {
       frontend: ["HTML", "CSS", "JavaScript"],
       backend: ["Node.js", "Express.js", "REST API's"],
-      database: ["MySQL"],
-      authentication: ["Session-based authentication"],
+      database: ["MongoDB"],
+      authentication: ["JWT-based authentication"],
       storage: ["Cloudinary"],
-      tools: ["MySQL Workbench", "Git", "GitHub"],
+      tools: ["MongoDB Compoass","Postman", "Git", "GitHub"],
     },
 
     challenges: [
@@ -163,8 +163,8 @@ const ProjectInfo = [
     ],
 
     links: {
-      live: "https://vijayakumargavara.github.io/DhanyaSethu/",
-      github: "https://github.com/VijayaKumarGavara/Dhanya---Sethu-Production",
+      // live: "https://vijayakumargavara.github.io/DhanyaSethu/",
+      github: "https://github.com/VijayaKumarGavara/ds-v2-backend",
     },
   },
   {
@@ -266,7 +266,7 @@ const ProjectInfo = [
 
     links: {
       github: "https://github.com/VijayaKumarGavara/Portfolio",
-      live: "https://statuesque-pixie-9650a6.netlify.app/",
+      live: "https://vijayakumargavara-1dbfb.web.app/",
     },
   },
 ];
