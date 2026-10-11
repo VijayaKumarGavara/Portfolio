@@ -21,10 +21,15 @@ const Skills = () => {
               />
             );
           })}
-        </div>
-        <p className="py-6 md:px-32 font-body text-sm rounded-md
+
+          <p
+            className="text-start py-6 md:px-32 font-body text-sm rounded-md
             bg-light-bg dark:bg-dark-bg
-            text-light-text dark:text-dark-text">Tools and technologies I use regularly and continue improving through hands-on projects.</p>
+            text-light-text dark:text-dark-text">
+            Tools and technologies I use regularly and continue improving
+            through hands-on projects.
+          </p>
+        </div>
       </section>
     </>
   );

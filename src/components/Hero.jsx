@@ -16,19 +16,20 @@ const Hero = () => {
           </h1>
         </div>
         <p className="p-2 sm:p-0 text-center text-base font-body text-light-text2 dark:text-dark-text2 w-full sm:w-5/12">
-          I'm a developer, who learns by building and enjoy creating simple,
-          meaningful solutions that connect UI to backend.
+          Full Stack Developer | Building modern, scalable web applications.
         </p>
         <div className="flex flex-row gap-x-5">
           <a
-            href="/VijayaKumarGavara_Resume.pdf"
+            href={import.meta.env.VITE_RESUME_LINK}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Open resume in new tab"
             className="bg-brand-500 hover:bg-brand-600 focus:ring-2 focus:ring-brand-200 text-white dark:text-dark-text font-semibold px-4 py-2 rounded transition transform hover:scale-105">
             Resume
           </a>
-          <a href="#contact" className="bg-transparent border border-light-border dark:border-dark-border text-light-text font-semibold cursor-pointer 
+          <a
+            href="#contact"
+            className="bg-transparent border border-light-border dark:border-dark-border text-light-text font-semibold cursor-pointer 
           focus:ring-2 focus:ring-brand-200
           dark:text-dark-text px-3 py-2 rounded transition transform hover:scale-105">
             Contact Me
@@ -41,7 +42,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             aria-label="LinkedIn (opens in new tab)"
             className="transition transform hover:scale-110 hover:text-brand-500">
-            <LinkedInIcon/>
+            <LinkedInIcon />
           </a>
           <a
             href="https://leetcode.com/u/Vijay18_24/"
@@ -49,7 +50,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             aria-label="LeetCode (opens in new tab)"
             className=" hover:text-brand-500 transition transform hover:scale-110">
-            <LeetcodeIcon/>
+            <LeetcodeIcon />
           </a>
           <a
             href="https://github.com/VijayaKumarGavara"

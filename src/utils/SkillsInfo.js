@@ -1,15 +1,15 @@
 const SkillsInfo = [
   {
     category: "Programming Languages",
-    skills: ["C", "Python", "Java", "Java Script"],
+    skills: ["C", "Python", "Java", "Java Script(ES6+)", "Type Script"],
   },
   {
     category: "Frontend",
-    skills: ["React ", " Tailwind", " JavaScript ", " CSS ", " HTML "],
+    skills: ["Next.js", "React ", " Tailwind", " JavaScript ", " CSS ", " HTML "],
   },
   {
     category: "Backend",
-    skills: ["Node.js ", " Express ", " REST APIs "],
+    skills: ["Node.js ", " Express ", " REST APIs ", "JWT Authentication"],
   },
   {
     category: "Databases",

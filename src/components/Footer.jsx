@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  pt-8 px-4 sm:px-6 md:px-12 lg:px-24 ">
           <div>
             <h2 className="m-2 font-heading text-base font-medium text-light-text dark:text-dark-text flex flex-col md:flex-row gap-4">
-              <span>Vijaya Kumar Gavara</span> <span>Web Developer</span>
+              <span>Vijaya Kumar Gavara</span> <span>Full Stack Developer</span>
             </h2>
           </div>
           <div className="m-2 flex flex-wrap gap-x-2">

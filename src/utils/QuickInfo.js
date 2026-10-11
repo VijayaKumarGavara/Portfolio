@@ -1,15 +1,15 @@
 const QuickInfo = [
   {
-    title: "Dhanya Sethu",
+    title: "KwiqHR",
     content:
-      "Dhanya Sethu bridges farmers and buyers with a transparent digital procurement system that ensures accurate records, shared visibility, and trust in every grain transaction.",
-    cta: "View project",
+      "A full-stack Human Resource Management System (HRMS) built with Next.js, TypeScript, Node.js, and MySQL.",
+    cta: "Explore",
     link: "#projects",
   },
   {
-    title: "Task Flow",
+    title: "Dhanya Sethu",
     content:
-      "Task-Flow is a personal productivity tool that helps users plan tasks, track progress over time, and visualize efficiency using priority-based insights and interactive dashboards.",
+      "Dhanya Sethu bridges farmers and buyers with a transparent digital procurement system that ensures accurate records, shared visibility, and trust in every grain transaction.",
     cta: "View project",
     link: "#projects",
   },

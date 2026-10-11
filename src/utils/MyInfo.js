@@ -8,28 +8,26 @@ const MyInfo = [
     Icon: EngineeringIcon,
     heading: "Who I Am",
     content:
-      "I’m Vijaya Kumar Gavara, a computer science graduate from Andhra Pradesh, India. I enjoy building software by understanding how things work internally, not just making them look right on the surface.",
+      "I'm Vijaya Kumar Gavara, a Computer Science graduate from Andhra Pradesh, India, and a Full Stack Developer. I enjoy building practical web applications and understanding how frontend interfaces, backend services, and databases work together.",
   },
   {
     Icon: CodeIcon,
     heading: "What I Work With",
     content:
-      "I work mainly with React, JavaScript, and Node.js. I like building clean UIs and connecting them with simple, structured backend logic.",
+      "I work with React, Next.js, TypeScript, Node.js, and Express.js to build full-stack applications. My experience includes REST API development and integration, database management with MySQL and MongoDB, and responsive UI development.",
   },
   {
     Icon: WorkOutlineIcon,
-    heading: "What I'm Exploring",
+    heading: "What I've Worked On",
     content:
-      "Right now, I’m improving my understanding of React internals, and writing better-organized full-stack code.",
+      "During my internship at Glory Quick IT Solutions, I've contributed to frontend and backend development across multiple projects, including website CMS platforms and KwiqHR, a Human Resource Management System. I've worked on API integration, application features, and API testing.",
   },
   {
     Icon: AutoAwesomeMosaicIcon,
-    heading: "How I Learn",
+    heading: "How I Approach Problems",
     content:
-      "I prefer learning step by step. I take time to break problems down, understand them clearly, and improve gradually instead of rushing through topics.",
+      "I believe in learning by building. I break complex problems into smaller parts, understand the underlying concepts, and focus on writing maintainable code while continuously improving my problem-solving and development skills.",
   },
 ];
-
-
 
 export default MyInfo;

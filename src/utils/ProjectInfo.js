@@ -51,6 +51,59 @@ const ProjectInfo = [
       live: "https://kaleidoscopic-pasca-2735bc.netlify.app/",
     },
   },
+
+  {
+    slug: "kwiqhr",
+    title: "KwiqHR",
+    shortDescription:
+      "A full-stack Human Resource Management System (HRMS) built with Next.js, TypeScript, Node.js, and MySQL.",
+
+    overview:
+      "KwiqHR is a full-stack Human Resource Management System designed to support HR operations through a modern web interface and backend API architecture. Built with Next.js and TypeScript on the frontend and Node.js and Express.js on the backend, the application uses TypeORM and MySQL for relational data management, Zustand for frontend state management, and JWT for authentication.",
+
+    problem:
+      "Managing employee information and HR operations across disconnected workflows can make data access, administrative tasks, and application management more complex.",
+
+    solution:
+      "KwiqHR provides a structured web application with integrated frontend and backend services, relational database management, and token-based authentication to support HR workflows through a unified system.",
+
+    features: [
+      "Responsive HRMS interface built with Next.js and Tailwind CSS",
+      "TypeScript-based frontend and backend development",
+      "REST API development and frontend-backend integration",
+      "Relational database management using TypeORM and MySQL",
+      "Frontend state management using Zustand",
+      "JWT-based authentication",
+      "Modular backend architecture using Node.js and Express.js",
+    ],
+
+    techStack: {
+      frontend: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+      backend: ["Node.js", "Express.js", "TypeORM", "JWT"],
+      database: ["MySQL"],
+      tools: ["Postman", "DB Diagram"],
+    },
+
+    challenges: [
+      {
+        challenge:
+          "Integrating frontend modules with backend APIs while maintaining consistent data flow across the application.",
+        solution:
+          "Connected Next.js interfaces to Express.js APIs and used TypeScript to maintain type consistency across implemented application workflows.",
+      },
+      {
+        challenge:
+          "Managing relational data and authenticated application requests across frontend and backend components.",
+        solution:
+          "Used TypeORM with MySQL for relational data access and JWT-based authentication for protected application workflows.",
+      },
+    ],
+
+    links: {
+      github: "https://github.com/Gloryquick-IT-Solutions/cartelico-frontend",
+      live: "",
+    },
+  },
   // {
   //   slug: "task-flow",
   //   title: "Task Flow",
@@ -144,7 +197,7 @@ const ProjectInfo = [
       database: ["MongoDB"],
       authentication: ["JWT-based authentication"],
       storage: ["Cloudinary"],
-      tools: ["MongoDB Compoass","Postman", "Git", "GitHub"],
+      tools: ["MongoDB Compoass", "Postman", "Git", "GitHub"],
     },
 
     challenges: [
@@ -215,7 +268,7 @@ const ProjectInfo = [
 
     links: {
       github: "https://github.com/VijayaKumarGavara/Guardian-Save",
-      live:"http://guardiansave.infinityfreeapp.com/"
+      live: "http://guardiansave.infinityfreeapp.com/",
     },
   },
   {
